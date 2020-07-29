@@ -243,6 +243,7 @@ color: black;
    color: black;
 }
 #nextButton {
+  background-color: #f1f1f1;
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;

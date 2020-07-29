@@ -1,7 +1,10 @@
 *{
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
+}
+.row1{
+  width: 100%
 }
 body{
   /*background-image: url(../images/1.jpg);*/
@@ -35,19 +38,21 @@ label{
  display: inline-block;
 }
 .section1{
+  position: relative;
   background-color: lightgrey;
   width: 520px;
   border: 1px solid lightslategray;
   padding: 60px;
   margin: 24px;
   float: right;
-  margin-top: -6px;
+  margin-top: 0px;
   font-size: 19px;
 }
 #loctaion img{
       width: 725px;
 }
 .section2{
+  position: relative;
   background-color: lightgrey;
     width: 520px;
     height: 418px;
@@ -59,6 +64,7 @@ label{
     font-size: 19px;
 }
 .section3{
+  position: relative;
   background-color: lightgrey;
     width: 520px;
     height: 270px;

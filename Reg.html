@@ -217,7 +217,7 @@
 		<div class="col-25">
 				<span id="info"><strong>Address:-</strong><br></span>
 			</div>
-		</div>
+		</div><hr>
 		<div class="row">
 			<div class="col-25">
 					<label>Permanent address :</label>
@@ -552,14 +552,95 @@
 					<label style="align: center; margin: 0 0 0 10px;">PIN Code :</label>
 				</div>
 				<div class="col-75">
-						<input type="number" name="pcode" placeholder="Enter PIN code" id="pcode" required>
+						<input type="tel" name="pcode" placeholder="Enter PIN code" id="pcode" pattern="[0-9]{6}" required>
 					</div>
-				</div><br><br>
+				</div><br><hr>
 				<div class="row">
-					<input type="submit" class="submit" id="sub" value="Submit"><a href="Next1.html">Submit</a></input>
+					<div class="col-25">
+			 <span id="info"><strong>Student Qualifications:-</strong><br></span>
+			 </div>
+			 </div><hr>
+				 <span style="text-decoration: underline;">10th Result</span><br><br>
+				 <div class="row">
+					 <div class="col-25">
+				 <label>Marks in Science :</label>
+			 </div>
+			 <div class="col-75">
+				 <input type="tel" name="sci" placeholder="Out-of 100" id="sci" pattern="[0-9]+" required>
+			 </div>
+		 </div>
+		 <div class="row">
+			 <div class="col-25">
+				 <label>Marks in Math :</label>
+			 </div>
+			 <div class="col-75">
+				 <input type="tel" name="math" placeholder="Out-of 100" id="math" pattern="[0-9]+" required>
+			 </div>
+		 </div>
+		 <div class="row">
+			 <div class="col-25">
+				 <label>SSC Aggregate Grade :</label>
+			 </div>
+			 <div class="col-75">
+				 <input type="tel" name="ssc" placeholder="Enter Percentage" id="Percentage" pattern="[0-9]+" required><br><br>
+			 </div>
+		 </div><hr>
+
+				 <span style="text-decoration: underline;">12th Result</span><br><br>
+		 <div class="row">
+			 <div class="col-25">
+				 <label>Marks in Physics :</label>
+			 </div>
+			 <div class="col-75">
+				 <input type="tel" name="phy" placeholder="Out-of 100" id="sci" pattern="[0-9]+" required>
+			 </div>
+		 </div>
+		 <div class="row">
+			 <div class="col-25">
+				 <label>Marks in Math :</label>
+			 </div>
+			 <div class="col-75">
+				 <input type="tel" name="maths" placeholder="Out-of 100" id="math" pattern="[0-9]+" required>
+			 </div>
+		 </div>
+		 <div class="row">
+			 <div class="col-25">
+				 <label>HSC Aggregate Grade :</label>
+			 </div>
+			 <div class="col-75">
+				 <input type="tel" name="hsc" placeholder="Enter Percentage" id="Percentage" pattern="[0-9]+" required><br><br>
+			 </div>
+		 </div><hr>
+		 <div class="row">+" required>
+			 </div>
+		 </div>
+		 <div class="row">
+			 <div class="col-25">
+				 <label> CET Rank :</label>
+			 </div>
+			 <div class="col-75">
+				 <input type="tel" name="cetr" placeholder="Enter Rank" id="Percentage" pattern="[0-9]+" required><br><br>
+			 </div>
+		 </div><hr>
+		 <div class="row">
+			 <div class="col-25">
+		 <label>Select Branch :</label>
+		</div>
+		<div class="col-75">
+			<input type="radio" name="branch" id="branch"<span id="branch" required>&nbsp; Computer Engineering</span>&nbsp;&nbsp;<br>
+			<input type="radio" name="branch" id="branch"<span id="branch" required>&nbsp; Information & Technology</span>&nbsp;&nbsp;<br>
+			<input type="radio" name="branch" id="branch"<span id="branch" required>&nbsp; Civil Engineering</span>&nbsp;&nbsp;<br>
+			<input type="radio" name="branch" id="branch"<span id="branch" required>&nbsp; Mechanical Engineering</span>&nbsp;&nbsp;<br>
+			<input type="radio" name="branch" id="branch"<span id="branch" required>&nbsp; Electronics and telecommunication</span>&nbsp;&nbsp;
+		</div>
+		</div>
+		 <div class="row">
+				 <input type="submit" name="submit" value="Submit & proceed for payment!" id="sub">
+		</div>
+					<!--<input type="submit" class="submit" id="sub" value="Submit"><a href="Next1.html">Submit</a></input>-->
 <!--l" class="next" id="nextButton">Next &raquo;</a> -->
 					<!--<h2 style=" background-color: green; font-size: 30px; float: right;"><a href="Next1.html" style="color: black; text-decoration: none;">Next</a></h2>-->
- 			</div>
+
 	</form>
 	</div>
 </body>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admission Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div>
+      <h1>Admission form for Engineering</h1>
+    </div>
+
+    <div class="admission">
+    <form method="post" id="admission" action="">
+      <label>First Name :</label><br>
+      <input type="text" name="Fname" placeholder="Enter your first name" id="name"><br><br>
+
+      <label>Middle Name :</label><br>
+      <input type="text" name="Mname" placeholder="Enter your middle name" id="name"><br><br>
+
+      <label>Last Name :</label><br>
+      <input type="text" name="Lname" placeholder="Enter your last name" id="name"><br><br>
+
+      <label>Email ID :</label><br>
+            <input name="email" placeholder="Enter your email" id="email"><br><br>
+            <button type='submit' id='validate'>Validate!</button>
+            <h2 id='result'></h2>&nbsp;
+      <label>Mobile Number :</label><br>
+      <select id="ph">
+        <option>+91</option>
+      </select>
+      <input type="tel" name="MNum" id="num" placeholder="Enter your mobile number"><br><br>
+
+      <label>Gender :</label><br>
+      <input type="radio" name="gender" id="gender"<span id="gender">&nbsp; Male</span>&nbsp;&nbsp;
+      <input type="radio" name="gender" id="gender"<span id="gender">&nbsp; Female</span>&nbsp;&nbsp;
+      <input type="radio" name="gender" id="gender"<span id="gender">&nbsp; Others</span>&nbsp;&nbsp;<br><br>
+      <input type="submit" id="sub" value="Submit">
+
+    </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

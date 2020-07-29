@@ -1,0 +1,142 @@
+body{
+	font-size: 16px;
+	color:;
+	background-color: #f6f6f6;
+	font-family: 'Oxygen',sans-serif;
+	background-image: "./background.png"
+
+
+}
+.container{
+	margin-right: auto;
+	margin-left: auto;
+}
+header{
+	background-color: #f6f6f6;
+	margin-bottom: 5px solid #f6f6f6;
+	border-radius: 0;
+}
+
+#header-nav{
+	background-color: #f6f6f6;
+	border-radius: 8px;
+	border-bottom: 3px solid #f6f6f6;
+	border-color: #f6f6f6;
+
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: gold;
+	font-size:1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.nav-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid black;
+}
+
+.navbar-header button.navbar-toggle{
+	clear:both;
+	margin-top: -30px;
+}
+
+.panel-footer{
+	background-color: #bdb8b8;
+	margin: none; 	
+	padding-bottom: 20px;
+	text-overflow: scroll;	
+}
+
+#names a{
+	align-self: bottom;
+	text-orientation: all;
+	text-decoration: none;
+	color: white	;
+
+}
+#names span{
+	color: red;
+}
+
+/*main content*/
+#nba{
+	background-image: ('./nba accredation.jpg');
+	max-width: 100%;
+	border-radius: 8px;
+	display: block;
+	position: relative;
+}
+
+#heading{
+	background-color: #96a4b5;
+	color: black;
+	border-style: groove;
+	box-shadow: black;
+	width: 100%;
+}
+.list-group{
+	text-align: center;
+	width: 100%;
+}
+#tiles{
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 0px;
+	margin-bottom: 3px;
+	margin-right: 3px;
+	box-shadow: 5px gray;
+	width: 100%;
+}
+
+#tiles2{
+	border: 2px solid black;
+	border-radius: 5px;
+	padding-bottom: 55px;
+	margin-bottom: 5px;
+	margin-right: 3px;
+	box-shadow: 8px gray;
+	width: 100%;
+}
+#sidebar{
+
+}
+
+@media(max-width: 763px){
+	#collapsable-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	#collapsable-nav a br{
+		font-size: 1.2em;
+	}
+}
+@media(min-width: 764px){
+	.navbar-brand a h1{
+		font-size: 5vw;
+	}
+}

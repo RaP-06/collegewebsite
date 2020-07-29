@@ -1,0 +1,340 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  /*background-image: url(../images/1.jpg);*/
+  background-size: 100% 800px;
+  background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: black;
+  }
+h2{
+  font-size: 18px;
+}
+.admission{
+           background: #030226;
+           width: auto;
+           margin: 0px 0px 5px 5px;
+           color: white;
+           font-size: 18px;
+           padding: 20px;
+           border-radius: 10px;
+
+  }
+h2{
+  margin-left: 100px;
+}
+label{
+  color: white;
+  padding: 12px 12px 12px 0;
+ display: inline-block;
+}
+.section1{
+  background-color: lightgrey;
+  width: 520px;
+  border: 1px solid lightslategray;
+  padding: 60px;
+  margin: 24px;
+  float: right;
+  margin-top: -6px;
+  font-size: 19px;
+}
+#loctaion img{
+      width: 725px;
+}
+.section2{
+  background-color: lightgrey;
+    width: 520px;
+    height: 418px;
+    border: 1px solid lightslategray;
+    padding: 60px;
+    margin: 24px;
+    float: left;
+    margin-top: 0;
+    font-size: 19px;
+}
+.section3{
+  background-color: lightgrey;
+    width: 520px;
+    height: 270px;
+    border: 1px solid lightslategray;
+    padding: 60px;
+    margin: 24px;
+    float: left;
+    margin-top: 0;
+    font-size: 19px;
+
+}
+#department{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#sfname{
+  width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+   color: black;
+}
+#smname{
+  width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+   color: black;
+
+}
+#slname{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#ffname{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#flname{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+
+}
+#fmname{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#mfname{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#mmname{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#mlname{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#Percentage{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#info{
+  align: center;
+  font-size: 25px;
+  margin-left: 5px;
+}
+#add1{
+  width: 100%;
+ padding: 12px;
+ margin-bottom: 7px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#add{
+  width: 100%;
+ padding: 12px;
+ margin-bottom: 7px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#statenames{
+  width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+resize: vertical;
+color: black;
+}
+#citynames{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#pcode{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#sci{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#math{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+   color: black;
+}
+#nextButton {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color: black;
+}
+
+#nextButton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#previousButton {
+  background-color: #f1f1f1;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color: black;
+  }
+}
+#previousButton:hover{
+  background-color: #ddd;
+  color: black;
+}
+#dob{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+   color: black;
+}
+#ph{
+  width: 60px;
+  padding: 7px;
+  margin-bottom: 2px;
+  margin-right: 3px;
+  border: none;
+  border-radius: 3px;
+  outline: 0;
+  color: black;
+}
+#num{
+  width: 100%;
+ padding: 12px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ resize: vertical;
+ color: black;
+}
+#sub{
+  background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+#email{
+  width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   resize: vertical;
+     color: black;
+}
+#validate{
+  margin-left: 10px;
+  color: black;
+}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

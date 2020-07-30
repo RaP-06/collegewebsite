@@ -57,7 +57,7 @@
 	</div>
 
 	<div class="admission">
-	<form method="post" id="admission" action="">
+	<form action="#" id="admission">
 		<hr>
 		<div class="row">
 			<div class="col-25">
@@ -566,7 +566,7 @@
 				 <label>Marks in Science :</label>
 			 </div>
 			 <div class="col-75">
-				 <input type="tel" name="sci" placeholder="Out-of 100" id="sci" pattern="[0-9]+" required>
+				 <input type="number" name="sci" placeholder="Out-of 100" id="sci" max="100" pattern="[0-9]+" required>
 			 </div>
 		 </div>
 		 <div class="row">
@@ -574,7 +574,7 @@
 				 <label>Marks in Math :</label>
 			 </div>
 			 <div class="col-75">
-				 <input type="tel" name="math" placeholder="Out-of 100" id="math" pattern="[0-9]+" required>
+				 <input type="number" name="math" placeholder="Out-of 100" id="math" max="100" pattern="[0-9]+" required>
 			 </div>
 		 </div>
 		 <div class="row">
@@ -582,7 +582,7 @@
 				 <label>SSC Aggregate Grade :</label>
 			 </div>
 			 <div class="col-75">
-				 <input type="tel" name="ssc" placeholder="Enter Percentage" id="Percentage" pattern="[0-9]+" required><br><br>
+				 <input type="number" name="ssc" placeholder="Enter Percentage" id="Percentage" max="100" pattern="[0-9]+" required><br><br>
 			 </div>
 		 </div><hr>
 
@@ -592,7 +592,7 @@
 				 <label>Marks in Physics :</label>
 			 </div>
 			 <div class="col-75">
-				 <input type="tel" name="phy" placeholder="Out-of 100" id="sci" pattern="[0-9]+" required>
+				 <input type="number" name="phy" placeholder="Out-of 100" id="sci" max="100" pattern="[0-9]+" required>
 			 </div>
 		 </div>
 		 <div class="row">
@@ -600,7 +600,7 @@
 				 <label>Marks in Math :</label>
 			 </div>
 			 <div class="col-75">
-				 <input type="tel" name="maths" placeholder="Out-of 100" id="math" pattern="[0-9]+" required>
+				 <input type="number" name="maths" placeholder="Out-of 100" id="math" max="100" pattern="[0-9]+" required>
 			 </div>
 		 </div>
 		 <div class="row">
@@ -608,7 +608,7 @@
 				 <label>HSC Aggregate Grade :</label>
 			 </div>
 			 <div class="col-75">
-				 <input type="tel" name="hsc" placeholder="Enter Percentage" id="Percentage" pattern="[0-9]+" required><br><br>
+				 <input type="number" name="hsc" placeholder="Enter Percentage" id="Percentage" max="100" pattern="[0-9]+" required><br><br>
 			 </div>
 		 </div><hr>
 		 <div class="row">
@@ -616,9 +616,19 @@
 				 <label> CET Rank :</label>
 			 </div>
 			 <div class="col-75">
-				 <input type="tel" name="cetr" placeholder="Enter Rank" id="Percentage" pattern="[0-9]+" required><br><br>
+				 <input type="number" name="cetr" placeholder="Enter Rank" id="Percentage" max="1000000" pattern="[0-9]+" required><br><br>
 			 </div>
-		 </div><hr>
+		 </div>
+		 <div class="row">
+			 <div class="col-25">
+				 <label> CET Percentile :</label>
+			 </div>
+			 <div class="col-75">
+				 <input type="number" name="cetr" placeholder="Enter Percentile" id="Percentage" max="100" pattern="[0-9]+" required><br><br>
+			 </div>
+		 </div>
+
+		 <hr>
 		 <div class="row">
 			 <div class="col-25">
 		 <label>Select Branch :</label>
